@@ -1,0 +1,14 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.4.21' // 版本必须为1.4及以上
+    id 'java'
+    id 'net.mamoe.mirai-console' version '2.3.0' // Mirai版本号
+}
+
+group = 'top.zixuan007' // 看着改改就行
+
+repositories {
+    maven { url 'https://dl.bintray.com/kotlin/kotlin-eap' }
+    maven { url 'https://mirrors.huaweicloud.com/repository/maven' } //镜像仓库，加不加看你自己喜好了
+    mavenCentral()
+    jcenter()
+}
